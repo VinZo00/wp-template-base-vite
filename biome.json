@@ -4,9 +4,20 @@
     "enabled": true
   },
   "linter": {
-    "enabled": true,
     "rules": {
-      "recommended": true
+      "correctness": {
+        "noUnusedVariables": {
+          "level": "warn"
+        }
+      },
+      "style": {
+        "useConst": {
+          "level": "warn"
+        },
+        "useTemplate": {
+          "level": "warn"
+        }
+      }
     }
   },
   "formatter": {
